@@ -1,0 +1,181 @@
+.nav-pills{
+  font-family:Lobster;
+  font-size:1.7em;/*makes 2x size*/
+  background-color:black;/*makes nav bar this color!*/
+  opacity: 100%;/*this made nav bar with categories lighter black/greyish color and words lighter blue color.*/
+  margin-bottom:10%;
+  /*rest of code under here under navpills helps make nav bar more transparent during scrolling process except for at very top of 1st page*/
+  -webkit-transition: all 0.6s ease-out;
+    -moz-transition: all 0.6s ease-out;
+    -o-transition: all 0.6s ease-out;
+    -ms-transition: all 0.6s ease-out;
+    transition: all 0.6s ease-out;
+  
+}
+.nav-pills.scrolled{
+  opacity: 0.5;
+  
+}
+
+body{
+  background-color:white;
+  font-family:Lobster;
+  color:white;/*makes everything under nav bar this color*/
+}
+
+
+.pageOne{
+  background:url("https://hd.unsplash.com/photo-1421757295538-9c80958e75b0");
+  background-size:cover;
+  /*height:800px;*/
+  margin-top:-44px;
+  margin-left:-20px;
+  margin-right:-20px;
+  min-height: 800px;
+  
+  /*margin-top:-10%; hey lets remove margin and push them up by 10%. This applies to all of your children divs.*/
+  
+} /*Got image from unsplash since you can do whatever you want with them and they are copyright free*/
+.box{
+  background-color:black;
+  opacity:.8;/*this makes box around elements at top more transparent*/
+  padding:50px;/*makes more space inside box and enlarges box topwise and bottomwise. I wonder what default is*/
+  width:50%;/*shortens width of box, cutting off right part of box hanging off left edge..I wonder what default is*/
+  margin-right:auto;
+  margin-left:auto; /*both margin-right auto and margin-left auto center this box on page!*/
+  border-radius:10px;/*makes corners around box more round instead of sharp!*/
+  margin-top:6.9em;
+  
+  
+  /*transform:translateY(0px);*/
+}
+h1{
+  padding:0;
+  margin-top:0px;
+  /*transform:translateY(200px);*/
+  font-size:5.0em;
+  
+}
+h3{
+  padding:0;
+  margin-top:0px;*/
+  /*transform:translateY(200px);*/
+  
+}
+.btnlist{
+  text-align: center;
+  /*transform:translateY(200px);*/
+}
+
+/*a{
+  color:blue;
+} This makes nav bar words darker blue*/
+
+.btn-default{
+  background-color:black;
+  border-color:black;
+  color:#337ab7;
+  font-size:1.7em;/*This makes buttons have light blue color!*/
+}
+
+.pageTwo{
+  background:url("https://hd.unsplash.com/photo-1468248608912-fe6ca744a6c2");
+  background-size:cover;/**/
+  /*height:800px;*/
+  min-height: 800px;
+  /*padding-top:5%;/*moves all font down by 5% in column on page*/
+  /*background-size:cover; and height:800px; help to create second page with iphone showing!*/
+  background-position: 0% 10%;
+  margin-left:-20px; /*fills white space on left side of page */
+  margin-right:-20px;/*fills white space on right side of page*/
+}
+p{
+  font-size:2.2em;/*means it is gonna make font 3 times normal size*/
+  padding-left:70px;
+  padding-right:70px;
+  padding-top:100px;
+  color:white;
+  background-color:orange;
+  opacity:.8;
+  border-radius:10px;
+  
+}
+
+
+.personalimage{
+  /*height:400px; this is a fixed height. so I added minheight to make project responsive for small devices to expand size if needed*/
+  min-height:100px;
+  padding-top:20px;
+}
+.page2text{
+  padding-top:50px;
+  color:purple;
+}
+.line1{
+  width:50%;
+  border-top:5px solid;
+  color:purple;
+  
+}
+
+.PageThree {
+  background: url("https://hd.unsplash.com/photo-1472143684393-8b081cb2e899");/*makes part of background show*/
+  /*background-size:cover;*//*makes whole background show*/
+  /*height: 1000px;*//*makes height of background bigger/taller*/
+  min-height: 800px;
+  padding-top: 5%;/*makes everything but background shift down on page*/
+  margin-left:-29px;/*makes everything even including background shift left! and helped fill gap of white vertical space on left side*/
+  margin-right:-29px;/*does same thing as margin-left that we did but moved everything to right filling right space gap*/
+  margin-top: 0%;/*could put just 0 here too. This eliminates top page white space showing!*/
+  margin-bottom: -20%;/*this eliminates bottom page white space showing!*/
+  color:black;
+  
+}
+
+
+.img-thumbnail {
+  height: 200px;
+  width: 300px;
+  
+}
+
+h2 {
+  color:black;
+}
+
+.contactline {
+  border-color: blue;
+  width: 400px;
+  /*background: blue; this seemed to not do anything but I could be wrong. I need to recheck this.*/
+  height: 2px;
+  
+}/*all this code for contactline class applies to changing hr line under Contact Me heading!*/
+
+.panel-default {
+  opacity: .9;/*the higher the decimal, the less transparent/lighter. In this case, I made it less transparent*/
+  color: blue; /*makes Name word blue*/
+  }
+
+.pageFour{
+  background: url("https://hd.unsplash.com/photo-1438302439441-82e18f791f5e");
+  background-size: cover;
+  /*height:800px;*/
+  min-height: 800px;
+  padding-top: 5%;
+  margin-left:-20px; margin-right:-20px;
+  
+}
+
+/* Styles: Very Basic Media Queries Template below this comment! */
+
+@media only screen and (min-device-width : 320px) {
+  /* For mobile phones: Between 320 px - 599 px = Mobile Phone*/
+}
+
+@media only screen and (min-width: 600px) {
+    /* For tablets: Between 600 px - 767 px = Tablets */
+}
+@media only screen and (min-width: 768px) {
+    /* For desktop: > 768 px = Desktops */
+
+}
